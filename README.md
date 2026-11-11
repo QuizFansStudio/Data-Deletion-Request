@@ -46,7 +46,7 @@ To request deletion of data related to any of our applications, please contact u
 Please include:
 
 * The name of the application
-* Your device type: Android
+* Your device type: Android or Windows, if applicable
 * A short description of your deletion request
 
 ## Data that can be deleted
@@ -62,6 +62,18 @@ Files transferred inside our apps are stored on the user’s own device or sent 
 We do not have remote access to these files and cannot delete them remotely.
 
 Photos, videos, documents, and other local files stored on the user’s device must be deleted by the user directly from their device.
+
+## DirectBeam Windows Companion: local PC data removal
+
+Windows Companion is an optional DirectBeam desktop application. Pairing information is stored on the Windows PC, not in a separate DirectBeam cloud account. To remove locally stored information:
+
+1. Unpair/disconnect the Windows PC and revoke the corresponding Android connection, where those controls are available.
+2. Delete transferred or exported files from Windows Downloads/DirectBeam or the destination folder you selected, including independently saved copies.
+3. Inspect and delete relevant paired-phone metadata and diagnostics under `%LOCALAPPDATA%\\DirectBeam\\Companion\\`, including `phone.json` and `pairing-diagnostic.log` if present.
+4. If needed, remove the relevant DirectBeam Companion credential from Windows Credential Manager; do not remove unrelated Windows credentials.
+5. Check these locations separately when uninstalling: uninstall may leave files, settings, logs and credentials behind.
+
+The developer cannot remotely erase files on a Windows device. The [DirectBeam Privacy Policy](https://quizfansstudio.github.io/DirectBeam/privacy.html) and [Terms](https://quizfansstudio.github.io/DirectBeam/terms.html) cover the Windows Companion. For support emails or other information actually held by us, contact quizfans.studio@gmail.com.
 
 ## Data retained and retention period
 
@@ -86,4 +98,4 @@ For any questions regarding privacy or data deletion, contact us at:
 
 ## Last updated
 
-2026-11-02
+2026-11-11
