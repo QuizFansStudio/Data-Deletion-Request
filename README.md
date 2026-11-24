@@ -14,7 +14,7 @@ This page applies to all mobile applications published by Quiz Fans Studio, incl
 * Block Puzzle Game: Vortex
 * Couples Dare: Couple Games
 * Flirty Vibes: Truth or Dare
-* Mahjong: Royal Tile Match
+* Mahjong Solitaire: Royal Match
 * File Transfer: Android to iOS (DirectBeam)
 * SeeU
 
